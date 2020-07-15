@@ -282,6 +282,22 @@
     <script src="assets/js/modernizr-custom.js"></script>
     <script src="assets/js/ie-checker.js"></script>
     <script src="assets/js/sub-custom.js"></script>
+    <script>
+        // tab
+        var section = $(".section .sub_menu ul li");
+        var product = $(".product ul");
+
+        product.hide().eq(1).show();
+
+        section.click(function (e) {
+        e.preventDefault();
+        section.removeClass("active");
+        $(this).addClass("active");
+        var index = $(this).index();
+        product.hide().eq(index).show();
+
+        });
+    </script>
 
 </body>
 </html>

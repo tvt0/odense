@@ -36,21 +36,6 @@
         $("#modal").hide();
     });
 
-    // tab
-    var section = $(".section .sub_menu ul li");
-    var product = $(".product ul");
-
-    product.hide().eq(0).show();
-
-    section.click(function (e) {
-        e.preventDefault();
-        section.removeClass("active");
-        $(this).addClass("active");
-        var index = $(this).index();
-        product.hide().eq(index).show();
-
-    });
-
     // tab fixed
     $(".sub_menu").each(function () {
         var menu = $(this);
