@@ -1,4 +1,10 @@
 (function ($) {
+    // loading
+    $(window).load(function(){
+        $("#loading").hide();
+        $("body").removeClass("noScroll");
+    });
+    
     // slider
     var mySwiper = new Swiper('.swiper-container', {
         slidesPerView: 3.5,

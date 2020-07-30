@@ -1,4 +1,10 @@
 (function ($) {
+    // loading
+    $(window).load(function(){
+        $("#loading").hide();
+        $("body").removeClass("noScroll");
+    });
+    
     // ham
     $(".ham").click(function (e) {
         e.preventDefault();
