@@ -108,8 +108,6 @@ body {background: #f8f8f8;}
 @media (max-width: 960px){
     .header .dropdown .menu {padding: 30px 30px;}
     
-    .row {padding: 0 30px;}
-    
     #modal {width: 55%;}
 }
 
@@ -135,8 +133,6 @@ body {background: #f8f8f8;}
     .header .plate img {width: 35px; margin-left: 8px;}
     .header #dropdown {height: 0; width: 0;}
     .header .dropdown {display: none;}
-    
-    .row {padding: 0 16px;}
     
     .footer_nav ul li {padding: 16px 26px;}
     .footer_nav ul li a {font-size: 16px;}

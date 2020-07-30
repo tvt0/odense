@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 960px){
-    
+    .row {padding: 0 30px;}
 }
 
 @media (max-width: 768px){
@@ -61,6 +61,8 @@
 }
 
 @media (max-width: 600px){
+    .row {padding: 0 16px;}
+    
     #contents {margin: 100px 0 60px;}
     .section {display: none;}
     .product ul li {width: 49%; margin-bottom: 5%;}

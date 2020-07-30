@@ -117,6 +117,8 @@
 }
 
 @media (max-width: 960px){
+    .row {padding: 0 30px;}
+    
     .box ul li .b1 {height: 350px;}
     .box ul li .b2 {height: 420px;}
     .box ul li .b3 {height: 490px;}
@@ -144,6 +146,8 @@
 }
 
 @media (max-width: 600px){
+    .row {padding: 0 16px;}
+    
     #main {height: 450px;}
     .main {height: 450px;}
     
