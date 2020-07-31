@@ -212,4 +212,9 @@
 @media (max-width: 320px){
     #main {height: 270px;}
     .main {height: 270px;}
+    
+    .box ul li span {padding: 0 40px;}
+    
+    .product ul li a {font-size: 13px;}
+    .product ul li span {font-size: 12px;}
 }
