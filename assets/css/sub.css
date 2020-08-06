@@ -10,9 +10,9 @@
 .section h2 {color: #000; font-size: 20px; font-weight: 700; padding: 20px; background: #f8f8f8;}
 .section .sub_menu {width: 100%; background: #fff; z-index: 999;}
 .section .sub_menu.on {position: fixed; top: 73px; left: 0;}
-.section .sub_menu ul li {width: 100px; display: inline-block; padding: 16px; margin-left: -4px;}
+.section .sub_menu ul li {width: 130px; display: inline-block; margin-left: -4px;}
 .section .sub_menu ul li.active {border-bottom: 2px solid #555;}
-.section .sub_menu ul li a {font-size: 16px;}
+.section .sub_menu ul li a {display: block; padding: 16px; font-size: 16px;}
 
 /* product */
 .product {text-align: center;}

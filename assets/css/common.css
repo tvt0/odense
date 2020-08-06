@@ -34,8 +34,7 @@ body {background: #f8f8f8;}
 #mobile .mobile .menu > a span {position: absolute; right: 20px; top: 0; width: 20px; height: 20px; background: url(../img/arrow.png) no-repeat; background-size: 20px;}
 #mobile .mobile .menu > a span.up {transform: rotate(180deg); top: 6px;}
 #mobile .mobile .menu ul {display: none;}
-#mobile .mobile .menu ul li {margin-top: 8px;}
-#mobile .mobile .menu ul li a {font-size: 16px; color: #666;}
+#mobile .mobile .menu ul li a {display: block; padding: 8px 8px 0 0; font-size: 16px; color: #666;}
 #mobile .backdrop {display: none; position: fixed; left: 0; top: 0; background: #000; opacity: 0; width: 100%; height: 100vh; z-index: 1000;}
 #mobile .backdrop.on {display: block; animation: dim .2s .2s forwards;}
 @keyframes dim {
@@ -58,14 +57,13 @@ body {background: #f8f8f8;}
 .header .dropdown {text-align: center; display: inline-block;}
 .header .dropdown .menu {float: left; padding: 30px 50px;}
 .header .dropdown .menu > a {font-size: 18px; font-weight: 700; color: #333;}
-.header .dropdown .menu ul li {margin-top: 8px;}
-.header .dropdown .menu ul li a {position: relative; font-size: 16px; color: #666; transition: all .2s;}
+.header .dropdown .menu ul li a {display: block; position: relative; padding: 8px 8px 0; font-size: 16px; color: #666; transition: all .2s;}
 .header .dropdown .menu ul li a:hover {color: #000;}
 
 /* footer */
 .footer_nav {text-align: center; background: #fff;}
-.footer_nav ul li {display: inline-block; padding: 18px 30px;}
-.footer_nav ul li a {font-size: 18px; text-transform: uppercase;}
+.footer_nav ul li {display: inline-block;}
+.footer_nav ul li a {display: block; padding: 18px 30px; font-size: 18px; text-transform: uppercase;}
 .footer_nav ul li a:hover {font-weight: 700;}
 .footer_info {text-align: center; padding: 30px 0;}
 .footer_info .sns {height: 46px; margin-bottom: 20px;}
@@ -134,8 +132,7 @@ body {background: #f8f8f8;}
     .header #dropdown {height: 0; width: 0;}
     .header .dropdown {display: none;}
     
-    .footer_nav ul li {padding: 16px 26px;}
-    .footer_nav ul li a {font-size: 16px;}
+    .footer_nav ul li a {padding: 16px 26px; font-size: 16px;}
     .footer_info .detail ul li {font-size: 12px; margin-bottom: 4px;}
     .footer_info .detail ul li span {display: block; margin-top: 4px;}
     .footer_info .detail ul li:last-child {margin-top: 16px;}
@@ -144,8 +141,7 @@ body {background: #f8f8f8;}
 }
 
 @media (max-width: 480px){
-    .footer_nav ul li {padding: 14px 16px;}
-    .footer_nav ul li a {font-size: 14px;}
+    .footer_nav ul li a {padding: 14px 16px; font-size: 14px;}
     .footer_info {padding: 20px 0;}
     .footer_info .sns {margin-bottom: 16px;}
     
